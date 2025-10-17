@@ -58,4 +58,7 @@ ________________________________________
 •	Analyze and potentially drop very sparse columns
 •	Engineer provider-level aggregates (e.g. claim counts)
 •	Explore class imbalance handling for PotentialFraud
+________________________________________
+📊 **Presentation:**
+View the summary presentation [here (PDF)](docs/Healthcare_Data_Cleaning_Presentation.pdf)
 
