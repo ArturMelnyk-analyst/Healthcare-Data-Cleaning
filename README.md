@@ -59,6 +59,18 @@ ________________________________________
 •	Engineer provider-level aggregates (e.g. claim counts)
 •	Explore class imbalance handling for PotentialFraud
 ________________________________________
+⚠️ Downstream AI Agent Export
+
+The cleaned datasets produced in `notebooks/clean_data.ipynb` can be exported locally as Parquet files for downstream use in a companion Healthcare AI Agent project.
+
+This repository remains the upstream healthcare data-cleaning pipeline. The downstream AI Agent project consumes the cleaned and validated Parquet outputs rather than repeating the raw CSV cleaning process.
+
+Raw and processed datasets are intentionally excluded from GitHub. To regenerate the Parquet files locally:
+
+1. Place the raw Kaggle CSV datasets into `data/raw/`
+2. Run `load_data.ipynb`
+3. Run `clean_data.ipynb`
+________________________________________
 📊 **Presentation:**
 View the summary presentation [here (PDF)](docs/Healthcare_Data_Cleaning_Presentation.pdf)
 
